@@ -8,6 +8,8 @@ import { useAuth } from '../contexts/AuthContext';
 import ImgHome from '../assets/home.jpg';
 import { useLocation } from '../contexts/LocationContext';
 
+
+
 function Home() {
   const navigate = useNavigate();
   const { user } = useAuth();
